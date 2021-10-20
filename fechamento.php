@@ -20,7 +20,7 @@ $moedaB = $argv[2];
 
 
 //EXECUCAO DA REQUISICAO NA API
-$dadosFechamento = $obEconomia->consultarUltimosFechamentos($moedaA, $moedaB, 7);
+$dadosFechamento = $obEconomia->consultarUltimosFechamentos($moedaA, $moedaB, 7); // pegando os ultimos 7 dias
 
 
 //IMPRIME O RETORNO DA COTACAO 
